@@ -1,0 +1,12 @@
+{
+  "server": {
+    "address": ":9090"
+  },
+  "database": {
+    "host": "postgres",
+    "port": "5000",
+    "user": "postgres",
+    "pass": "pass",
+    "name": "url_shortener"
+  }
+}
