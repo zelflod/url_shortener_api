@@ -1,12 +1,17 @@
 {
   "server": {
-    "address": ":9090"
+    "address": ":5000"
   },
   "database": {
-    "host": "postgres",
-    "port": "5000",
-    "user": "postgres",
-    "pass": "pass",
-    "name": "url_shortener"
-  }
+    "host": "localhost",
+    "port": "5432",
+    "user": "url_shorten",
+    "pass": "url_shorten",
+    "name": "url_shorten"
+  },
+  "context": {
+    "timeout": 2
+  },
+  "ttl": 10,
+  "cron_interval": 10
 }
