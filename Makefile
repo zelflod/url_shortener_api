@@ -18,10 +18,13 @@ docker:
 run:
 	docker-compose up -d
 
+run-rebuild:
+	docker-compose up -d --build
+
 stop:
 	docker-compose down
 
-run:
+run-local:
 	go run ./cmd/${BINARY}/main.go
 
 .DEFAULT_GOAL := build
